@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Action</title>
+  
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-bKV+Cv4f6TNPqHfHK1tevUxjGNooT4i0c+Tu8Q72INTbYJL0u10ZNYy/qY1VbW+25f1aUcfpMMkaIY9j6QYkfA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pK+9OaYV+F8y5Ikkd+Tq8K4uWv/V6+v7ks/kw13uJpqemZCQt4nms1qVV5uk+jW6S1t69THw5iBwUrO+p3AmQw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom Styles -->
+  <style>
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+    .navbar-brand img {
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top animate__animated animate__fadeInDown">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="HOME.html">
+      <img src="C:\Users\ADIL\Downloads\image-removebg-preview (7).png" alt="Game Shop Logo"
+           class="animate__animated animate__zoomIn"
+           style="height: 100px; margin-right: 10px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link active" href="HOME.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="formulaire .html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
+      </ul>
+      <form class="d-flex me-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search games..." aria-label="Search">
+        <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categories</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="action.html">Action</a></li>
+            <li><a class="dropdown-item" href="Adventure.html">Adventure</a></li>
+            <li><a class="dropdown-item" href="Simulation.html">Simulation</a></li>
+            <li><a class="dropdown-item" href="Sports.html">Sports</a></li>
+            <li><a class="dropdown-item" href="Racing.html">Racing</a></li>
+            <li><a class="dropdown-item" href="Horror.html">Horror</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html"><i class="fas fa-user"></i> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+   <!-- Page Title using Bootstrap text-warning -->
+<div class="container">
+    <div class="text-center my-4">
+      <h1 class="display-4 text-primary">Action</h1>
+    </div>
+  </div>
+  <style>
+    /* Smooth transition for transform & shadow */
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    body{
+      background-color: black ;
+      
+    }
+  
+    /* On hover, lift up & intensify shadow */
+    .card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 14px 24px rgb(34, 0, 255);
+    }
+    .card-img-top {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
+  
+   <!-- Games Grid: 3 cards per row -->
+   <div class="container mt-5">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4 animate__animated animate__pulse animate__delay-1s">
+        <div class="card h-100">
+          <img  src="C:\Users\ADIL\Desktop\images\action\Call Of Duty_ Modern Warfare 2 reveals October release date in first trailer.jpeg" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">CALL OF Duty</h5>
+            <p class="card-text flex-grow-1">Call of Duty Experience fast-paced first-person shooter action across war-torn battlefields—from WWII trenches to futuristic warfare.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 23$</a>
+          </div>
+        </div>
+      </div>
+       <!-- Card 1 -->
+       <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\2\Alan Wake 2 ( Alan Wake 2 ) ★★★★ 2024.jpeg" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Alan Wake II</h5>
+            <p class="card-text flex-grow-1">Alan Wake II Step into a psychological survival horror thriller where novelist Alan Wake and FBI agent Saga Anderson unravel a reality-warping mystery in Bright Falls.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 30$ </a>
+          </div>
+        </div>
+      </div>
+       <!-- Card 1 -->
+       <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\action\Laughing Squid.jpeg" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">The Last Of US</h5>
+            <p class="card-text flex-grow-1">The Last of Us Survive a post-apocalyptic U.S. as Joel and Ellie, battling infected creatures and hostile humans in a gripping journey across ruined cities.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 50$</a>
+          </div>
+        </div>
+      </div>
+       <!-- Card 1 -->
+       <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\action\Grand Theft Auto V - Rockstar Games.jpeg" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">GTA 5</h5>
+            <p class="card-text flex-grow-1">Grand Theft Auto V (GTA 5) Play as three criminals—Michael, Franklin, and Trevor—pulling off heists in the sprawling city of Los Santos.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i>BUY 24$</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-2s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\2\676cf750-b857-49f6-a073-e9275bdd1e5a.jpeg" class="card-img-top" alt="Game 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Cyberpunk 2077</h5>
+            <p class="card-text flex-grow-1">Cyberpunk 2077 Play as V, a mercenary navigating the neon chaos of Night City in a dystopian future ruled by corporations.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 80$</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-3s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\2\PUBG GAME POSTER Player Unknown Battlegrounds Xbox….jpeg" class="card-img-top" alt="Game 3">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">PUBG</h5>
+            <p class="card-text flex-grow-1">PUBG: Battlegrounds Drop into a massive island with 100 players in a tense battle royale where only one team survives.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i>BUY 12$</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Repeat cards... -->
+
+    </div>
+  </div>
+ <!-- Footer -->
+ <footer class="bg-dark text-white text-center text-lg-start mt-5 animate__animated animate__fadeInUp">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <h5>About Us</h5>
+          <p>We offer the best video games at unbeatable prices. Explore our collection and enjoy a world of entertainment.</p>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="home.html" class="text-white">Home</a></li>
+            <li><a href="games.html" class="text-white">Games</a></li>
+            <li><a href="formulaire.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com/games_shop121?utm_source=qr&igsh=MWJ4OTZmOHp5NHNzbw==" class="text-white"><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 bg-primary">© 2025 Game shop. All rights reserved.</div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racing</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-bKV+Cv4f6TNPqHfHK1tevUxjGNooT4i0c+Tu8Q72INTbYJL0u10ZNYy/qY1VbW+25f1aUcfpMMkaIY9j6QYkfA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pK+9OaYV+F8y5Ikkd+Tq8K4uWv/V6+v7ks/kw13uJpqemZCQt4nms1qVV5uk+jW6S1t69THw5iBwUrO+p3AmQw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom Styles -->
+  <style>
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+    .navbar-brand img {
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top animate__animated animate__fadeInDown">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="HOME.html">
+      <img src="C:\Users\ADIL\Downloads\image-removebg-preview (7).png" alt="Game Shop Logo"
+           class="animate__animated animate__zoomIn"
+           style="height: 100px; margin-right: 10px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link active" href="HOME.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="formulaire .html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
+      </ul>
+      <form class="d-flex me-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search games..." aria-label="Search">
+        <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categories</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="action.html">Action</a></li>
+            <li><a class="dropdown-item" href="Adventure.html">Adventure</a></li>
+            <li><a class="dropdown-item" href="Simulation.html">Simulation</a></li>
+            <li><a class="dropdown-item" href="Sports.html">Sports</a></li>
+            <li><a class="dropdown-item" href="Racing.html">Racing</a></li>
+            <li><a class="dropdown-item" href="Horror.html">Horror</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html"><i class="fas fa-user"></i> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+   <!-- Page Title using Bootstrap text-warning -->
+<div class="container">
+    <div class="text-center my-4">
+      <h1 class="display-4 text-primary">Racing</h1>
+    </div>
+  </div>
+  <style>
+    /* Smooth transition for transform & shadow */
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+  
+    /* On hover, lift up & intensify shadow */
+    .card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 14px 24px rgb(34, 0, 255);
+    }
+    body{
+      background-color: black ;
+      
+    }
+    .card-img-top {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
+
+   <!-- Games Grid: 3 cards per row -->
+   <div class="container mt-5">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\racing\alaskan-road-truckers-poster-gamdie.jpg.webp" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">alaskan</h5>
+            <p class="card-text flex-grow-1">Alaskan Road Truckers A survival trucking simulator set in the harsh wilderness of Alaska.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 7$</a>
+          </div>
+        </div>
+      </div>
+       <!-- Card 1 -->
+       <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\racing\drive-beyond-horizons-poster-gamdie.jpg.webp" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">drive beyond</h5>
+            <p class="card-text flex-grow-1">Drive Beyond Horizons is a sandbox-style survival driving game where your car is your lifeline in a vast, procedurally generated world.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 9$</a>
+          </div>
+        </div>
+      </div>
+       <!-- Card 1 -->
+       <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\racing\motorcycle-mechanic-simulator-2021-poster-gamdie.jpg.webp" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">motorcycle mechanic simulator</h5>
+            <p class="card-text flex-grow-1">Motorcycle Mechanic Simulator 2021 is a detailed simulation game where you build your own motorcycle repair empire from the ground up.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 5$</a>
+          </div>
+        </div>
+      </div>
+       <!-- Card 1 -->
+       <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\racing\pacific-drive-poster-gamdie.jpg.webp" class="card-img-top" alt="Minecraft">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">pacific drive</h5>
+            <p class="card-text flex-grow-1">Pacific Drive is a first-person driving survival game set in the eerie, anomaly-filled wilderness of the Olympic Exclusion Zone in Washington State.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 8$</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-2s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\racing\rc-revolution-poster-gamdie.jpg.webp" class="card-img-top" alt="Game 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">rc revolution</h5>
+            <p class="card-text flex-grow-1">RC Revolution is a fast-paced arcade racing game where you control miniature radio-controlled cars across wild tracks filled with obstacles, jumps, and hazards.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> BUY 11.44$</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4 animate__animated animate__zoomIn animate__delay-3s">
+        <div class="card h-100">
+          <img src="C:\Users\ADIL\Desktop\images\racing\what-the-car-poster-gamdie.jpg.webp" class="card-img-top" alt="Game 3">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">what the car</h5>
+            <p class="card-text flex-grow-1">WHAT THE CAR? is a hilariously absurd racing adventure where your car doesn’t just drive—it runs, jumps, sneezes, and sings.</p>
+            <a href="cart.html" class="btn btn-primary mt-2"><i class="fas fa-download"></i> 17$</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Repeat cards... -->
+
+    </div>
+  </div>
+ <!-- Footer -->
+ <footer class="bg-dark text-white text-center text-lg-start mt-5 animate__animated animate__fadeInUp">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <h5>About Us</h5>
+          <p>We offer the best video games at unbeatable prices. Explore our collection and enjoy a world of entertainment.</p>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="home.html" class="text-white">Home</a></li>
+            <li><a href="games.html" class="text-white">Games</a></li>
+            <li><a href="formulaire.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com/games_shop121?utm_source=qr&igsh=MWJ4OTZmOHp5NHNzbw==" class="text-white"><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 bg-primary">© 2025 Game shop. All rights reserved.</div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
